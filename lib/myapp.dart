@@ -7,7 +7,7 @@ import 'tabsabajo.dart';
 class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
-      theme: ThemeData(primaryColor: Colors.grey),
+      theme: ThemeData(primaryColor: Colors.red),
       debugShowCheckedModeBanner: false,
       title: 'Casa Club WTC',
       home: tabsabajo(),
